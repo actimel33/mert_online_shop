@@ -1,0 +1,32 @@
+{
+  "name": "expected",
+  "version": "1.0.0",
+  "description": "E",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node app.js"
+  },
+  "keywords": [
+    "E-commerce",
+    "web-shop",
+    "desired",
+    "goods",
+    "top",
+    "bestsellers"
+  ],
+  "author": "Andrew_Viyacheslavovich",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.23"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
